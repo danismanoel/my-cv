@@ -1,0 +1,136 @@
+/* para importar uma font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.information-column {
+    padding: 40px;
+    background-color: #000; 
+    color: white;   
+    text-align: center;
+}
+
+.information-column img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    margin-bottom: 18px;
+}
+
+.information-column hr {
+    border: none;
+    border-bottom: 1px solid blue;
+    margin-top: 18px;    
+}
+
+.contact {
+    text-align: left;
+    margin-top: 18px; 
+}
+
+.contact a {
+    text-decoration:none; 
+    color: #fff;
+    margin-left: 10px;
+}
+
+.contact a:hover {
+    color: rgba(0, 0, 255);
+    border-radius: 5px; 
+}
+
+.contact i {
+    color: blue;
+}
+
+.information-column ul {
+    list-style-type: none;
+    margin: 10px 0px;
+}
+
+.education {
+    text-align: left;
+    margin-top: 32px; 
+}
+
+.education li {
+    margin: 10px 0px;
+}
+
+.education p {
+    color: blue;
+}
+
+.experiences-column {
+    padding: 40px;
+    text-align: justify;
+}
+
+.experiences-column .sobre p {
+    line-height: 25px;
+}
+
+.experiences-column h2 {
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}  
+
+.experiences-column .experience {
+    margin: 10px 0px;
+}
+
+ .experiences-column li {
+    list-style-type: none;
+} 
+
+.experiences-column a {
+    text-decoration: none;
+    color: #000;
+}
+
+.experiences-column a:hover {
+    background-color: rgba(0, 0, 255, 0.453);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.experiences-column section {
+    margin-bottom: 30px;
+}
+
+.experiences-column hr {
+    border: none;
+    border-bottom: 1px solid blue;
+    margin: 18px 0px;    
+}
+
+@media (min-width: 992px) {
+
+    .container {
+        display: flex;
+    }
+
+    .information-column img {
+        width: 240px;
+        height: 240px;
+    }    
+
+    .experiences-column .experience {
+        display: flex;       
+    } 
+
+    .experiences-date {
+        width: 180px;
+        height: 115px;
+    }
+
+     .experiences-desc {
+        width: 90%;
+     }
+}
